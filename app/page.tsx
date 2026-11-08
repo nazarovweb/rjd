@@ -2,8 +2,8 @@
 export default function Home() {
   return (
     <div>
-      <a href="/worker">worker</a>
-      <a href="/brigador">brigadir</a>
+      <a href="/worker">Worker</a>
+      <a href="/brigador">B</a>
     </div>
   );
 }
