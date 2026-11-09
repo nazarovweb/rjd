@@ -108,13 +108,13 @@ export default function TaskCard({ title, sostavNumber, statFields }: TaskCardPr
                 </div>
 
                 {/* Center Info & Wagon Grid */}
-                <div className="flex-1 p-4">
+                <div className="flex-1 p-2">
                     <div className="flex items-center justify-between mb-3">
-                        <h2 className="text-xl font-bold uppercase tracking-wider text-slate-800">
+                        <h2 className="text-sm  uppercase text-slate-800">
                             {title}
                         </h2>
                         <span className="text-xs font-medium text-slate-500">
-                            {isExpanded ? "Скрыть вагоны ▲" : "Выбрать вагон ▼"}
+                            {isExpanded ? "Скрыть ▲" : "Выбрать▼"}
                         </span>
                     </div>
 
@@ -134,8 +134,8 @@ export default function TaskCard({ title, sostavNumber, statFields }: TaskCardPr
                 </div>
 
                 {/* Right Sostav Badge */}
-                <div className="flex w-24 flex-col items-center justify-center bg-amber-500 px-3 text-slate-950">
-                    <span className="text-3xl font-extrabold leading-none">{sostavNumber}</span>
+                <div className="flex w-20 flex-col items-center justify-center bg-amber-500 px-3 text-slate-950">
+                    <span className="text-xl font-extrabold leading-none">{sostavNumber}</span>
                     <span className="mt-1 text-xs font-semibold uppercase tracking-wide opacity-80">
                         состав
                     </span>

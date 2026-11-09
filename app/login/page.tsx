@@ -1,5 +1,5 @@
 
-const page = () => {
+const Login = () => {
     return (
         <div>
             <form action="">
@@ -11,4 +11,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Login
